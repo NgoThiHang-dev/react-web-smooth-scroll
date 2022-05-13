@@ -1,0 +1,113 @@
+.hero-section {
+  background: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: calc(100vh - 90px);
+  position: relative;
+  z-index: 1;
+}
+
+/* .hero-section:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%),
+    rgba(0, 0, 0, 0.6) 100%, linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%),
+    transparent 100%;
+  z-index: 2;
+} */
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-bg video {
+  width: 100%;
+  height: 100%;
+  --o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+}
+
+.hero-content {
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content h1 {
+  color: #f9f9f9;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero-content p {
+  margin-top: 24px;
+  color: #f9f9f9;
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.hero-btn-wrapp {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-btn-wrapp button {
+  background: #01bf71;
+  padding: 14px 48px;
+  color: #010606;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-btn-wrapp button:hover {
+  background: #f9f9f9;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+}

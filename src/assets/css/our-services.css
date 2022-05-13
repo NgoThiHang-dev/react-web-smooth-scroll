@@ -1,0 +1,34 @@
+.our-services {
+  width: 100%;
+  height: 760px;
+  background-color: #010606;
+}
+
+.our-services h2 {
+  color: #f9f9f9;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.services-box {
+  background: #f9f9f9;
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.services-box img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.services-title {
+  text-align: center;
+}
+
+.services-title p strong,
+p {
+  font-size: 18px;
+}
