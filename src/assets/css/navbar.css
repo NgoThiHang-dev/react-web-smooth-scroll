@@ -80,6 +80,7 @@ html {
 
   .menu-icon {
     display: block;
+    margin-top: 10px;
   }
   .menu-icon i {
     display: block;
