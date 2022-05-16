@@ -40,11 +40,70 @@
   color: #010606;
 }
 
-.sign-sec-left {
+.sign-sec-right {
   width: 555px;
   height: 100%;
 }
-.sign-sec-left img {
+.sign-sec-right img {
   width: 100%;
-  margin-top: -35px;
+  margin-top: -80px;
+}
+
+@media screen and (max-width: 1199px) {
+  .sign-sec-right {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .sign-sec-right img {
+    margin-top: unset;
+  }
+  .sign-sec-left {
+    width: 700px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sign-sec-left {
+    width: 650px !important;
+    margin-bottom: 40px;
+  }
+  .sign-sec-right {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .sign-sec-right img {
+    margin-top: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-sec-left {
+    width: 450px !important;
+    margin-bottom: 40px;
+  }
+  .sign-sec-right {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .sign-sec-right img {
+    margin-top: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sign-sec-left {
+    text-align: center;
+    padding: 20px;
+    width: 350px !important;
+  }
+  .sign-sec-right {
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .sign-sec-right img {
+    margin-top: unset;
+  }
 }

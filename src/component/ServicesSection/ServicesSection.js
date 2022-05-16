@@ -8,13 +8,13 @@ export const ServicesSection = () => {
         <div className="services-section">
             <Container fluid>
                 <Row>
-                    <Col>
+                    <Col xs={12} xl={6}>
                         <div className="services-sec-left">
                             <img src={imgservices} />
                         </div>
                     </Col>
-                    <Col>
-                        <div className="services-sec-left">
+                    <Col xs={12} xl={6}>
+                        <div className="services-sec-right">
                             <span>Premium bank</span>
                             <h2>Unlimited Transactions with zero fees</h2>
                             <p>Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees</p>

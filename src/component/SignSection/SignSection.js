@@ -8,7 +8,7 @@ export const SignSection = () => {
         <div className="sign-section">
             <Container fluid>
                 <Row>
-                    <Col>
+                    <Col xs={12} xl={6}>
                         <div className="sign-sec-left">
                             <span>Premium bank</span>
                             <h2>Unlimited Transactions with zero fees</h2>
@@ -19,7 +19,7 @@ export const SignSection = () => {
                         </div>
                     </Col>
                     <Col>
-                        <div className="sign-sec-left">
+                        <div className="sign-sec-right">
                             <img src={sign} />
                         </div>
                     </Col>

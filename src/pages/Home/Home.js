@@ -10,21 +10,14 @@ import { SidebarSection } from "../../component/SidebarSection/SidebarSection";
 import "../../assets/css/style.css";
 
 export const Home = () => {
-  const [isOpenSide, setIsOpenSide] = useState(true);
-  const toggle = () => {
-    setIsOpenSide(!isOpenSide);
-    console.log(isOpenSide);
-  };
   return (
     <>
-      {/* <SidebarSection isOpenSide={isOpenSide} toggle={toggle} /> */}
-      <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection />
-      {/* <ServicesSection /> */}
-      {/* <OurServices /> */}
-      {/* <SignSection /> */}
-      <Footer />
+      <ServicesSection />
+      <OurServices />
+      <SignSection />
+      {/* <Footer /> */}
     </>
   );
 };

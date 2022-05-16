@@ -9,7 +9,7 @@ export const InfoSection = () => {
         <div className="info-section">
             <Container fluid>
                 <Row>
-                    <Col>
+                    <Col xs={12} xl={6}>
                         <div className="info-sec-left">
                             <span>Premium bank</span>
                             <h2>Unlimited Transactions with zero fees</h2>
@@ -19,7 +19,7 @@ export const InfoSection = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col xs={12} xl={6}>
                         <div className="info-sec-right">
                             <img src={info} />
                         </div>

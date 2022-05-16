@@ -10,7 +10,7 @@ export const OurServices = () => {
             <div className="services-content">
                 <Container>
                     <Row>
-                        <Col>
+                        <Col sm={12} lg={4}>
                             <div className="services-box">
                                 <img src={info} />
                                 <div className="services-title">
@@ -19,7 +19,7 @@ export const OurServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col sm={12} lg={4}>
                             <div className="services-box">
                                 <img src={info} />
                                 <div className="services-title">
@@ -28,7 +28,7 @@ export const OurServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col sm={12} lg={4}>
                             <div className="services-box">
                                 <img src={info} />
                                 <div className="services-title">
